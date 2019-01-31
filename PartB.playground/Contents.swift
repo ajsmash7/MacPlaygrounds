@@ -16,7 +16,7 @@ let maxClassChar = 20
 
 //use a loop to create a dictionary with the number of characters as the key
 //declare the dictionary
-var classCount: [String:Int]
+var classCount = [String:Int]()
 
 //set the range to loop through
 let range = 0..<itecClasses.count
